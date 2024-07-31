@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WS.Views.PagePrincipal">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Bem-Vindo!" FontSize="Title" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+            <StackLayout Orientation="Vertical">
+                <Button x:Name="btnCadastrarPa" Text="Cadastrar Paciente" FontAttributes="Bold"  BackgroundColor="LightGreen" CornerRadius="20" HorizontalOptions="FillAndExpand" Clicked="btnCadastrarPa_Clicked"/>
+                <Button x:Name="btnCadastrarExa" Text="Cadastrar Exame" FontAttributes="Bold"  BackgroundColor="GreenYellow" CornerRadius="20" Clicked="btnCadastrarExa_Clicked"/>
+                <Button x:Name="btnListar" Text="Listar Dados" FontAttributes="Bold"  TextColor="Black" BackgroundColor="Yellow" CornerRadius="20" Clicked="btnListar_Clicked"/>
+                <Button x:Name="btnSair" Text="Sair" FontAttributes="Bold" BackgroundColor="IndianRed" CornerRadius="20" Clicked="btnSair_Clicked"/>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

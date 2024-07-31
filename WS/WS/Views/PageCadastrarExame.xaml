@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WS.Views.PageCadastrarExame">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Nome do Exame: " />
+            <Entry x:Name="txtNomeExame" Placeholder="Nome do Exame"/>
+            <Label Text="Dias para o Exame ficar pronto:" />
+            <Entry x:Name="txtDias" Keyboard="Numeric" Placeholder="Dias do Exame"/>
+            <Button x:Name="btnCadastrar" Text="Cadastrar Exame" BackgroundColor="LightGreen" CornerRadius="20" Clicked="btnCadastrar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
